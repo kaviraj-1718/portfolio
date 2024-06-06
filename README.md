@@ -2,8 +2,8 @@
 
   A portfolio website built to showcase my skills and achievements.
 
-  [Home page](#home page)
+  - [Homepage](#homepage)
 
-  ##Home page
+  ## Homepage
 
   Run this file to open the website.
