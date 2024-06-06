@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+}
+
+#knowMoreBtn {
+    background-color: #0074cc;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#floatingScreen {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#closeBtn {
+    background-color: #cc0000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+    </style>
+</head>
+<body>
+    <button id="knowMoreBtn">Know More</button>
+    <div id="floatingScreen">
+        <div class="content">
+            <!-- Your details and content go here -->
+            <h2>Details</h2>
+            <p>This is some additional information you want to display.</p>
+        </div>
+        <button id="closeBtn">Close</button>
+    </div>
+    <script>
+        const knowMoreBtn = document.getElementById("knowMoreBtn");
+const floatingScreen = document.getElementById("floatingScreen");
+const closeBtn = document.getElementById("closeBtn");
+
+knowMoreBtn.addEventListener("click", () => {
+    floatingScreen.style.display = "flex";
+});
+
+closeBtn.addEventListener("click", () => {
+    floatingScreen.style.display = "none";
+});
+
+
+
+const knowMoreBtn1 = document.getElementById("knowMoreBtn");
+const floatingScreen = document.getElementById("floatingScreen");
+const closeBtn = document.getElementById("closeBtn");
+
+knowMoreBtn.addEventListener("click", () => {
+    floatingScreen.style.display = "flex";
+});
+
+closeBtn.addEventListener("click", () => {
+    floatingScreen.style.display = "none";
+});
+
+    </script>
+</body>
+</html>

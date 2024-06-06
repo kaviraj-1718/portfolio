@@ -1,0 +1,192 @@
+<html>
+    <title>Achievements</title>
+    <head>
+
+        <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+           
+          }
+          
+          body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+              Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+              background-color: black;
+          }
+          
+          .main-container {
+            padding: 30px;
+          }
+          
+          /* HEADING */
+          
+          .heading {
+            text-align: center;
+          }
+          
+          .heading__title {
+            font-weight: 600;
+          }
+          
+          .heading__credits {
+            margin: 10px 0px;
+            color: #888888;
+            font-size: 25px;
+            transition: all 0.5s;
+          }
+          
+          .heading__link {
+            text-decoration: none;
+          }
+          
+          .heading__credits .heading__link {
+            color: inherit;
+          }
+          
+          /* CARDS */
+          
+          .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            
+          }
+          
+          .card {
+            margin: 20px;
+            padding: 20px;
+            width: 500px;
+            min-height: 200px;
+            display: grid;
+            grid-template-rows: 20px 50px 1fr 50px;
+            border-radius: 10px;
+            box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+            transition: all 0.2s;
+           
+          }
+          
+          .card:hover {
+            box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+            transform: scale(1.01);
+          }
+          
+          .card__link,
+          .card__exit,
+          .card__icon {
+            position: relative;
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.9);
+            
+          }
+          
+          .card__link::after {
+            position: absolute;
+            top: 25px;
+            left: 0;
+            content: "";
+            width: 0%;
+            height: 3px;
+            background-color: rgba(255, 255, 255, 0.6);
+            transition: all 0.5s;
+            
+          }
+          
+          .card__link:hover::after {
+            width: 100%;
+          }
+          
+          .card__exit {
+            grid-row: 1/2;
+            justify-self: end;
+          }
+          
+          .card__icon {
+            grid-row: 2/3;
+            font-size: 30px;
+          }
+          
+          .card__title {
+            grid-row: 3/4;
+            font-weight: 400;
+            color: #ffffff;
+          }
+          
+          .card__apply {
+            grid-row: 4/5;
+            align-self: center;
+          }
+          
+          /* CARD BACKGROUNDS */
+          
+          .card-1 {
+            background: radial-gradient(#1fe4f5, #3fbafe);
+          }
+          
+          .card-2 {
+            background: radial-gradient(#1fe4f5, #3fbafe);
+          }
+          
+          .card-3 {
+            background: radial-gradient(#1fe4f5, #3fbafe);
+          }
+          
+          .card-4 {
+            background: radial-gradient(#1fe4f5, #3fbafe);
+          }
+          
+          .card-5 {
+            background: radial-gradient(#1fe4f5, #3fbafe);
+          }
+          .card-6 {
+            background: radial-gradient(#0d0d0d, #030303);
+          }
+          
+          /* RESPONSIVE */
+          
+          @media (max-width: 1600px) {
+            .cards {
+              justify-content: center;
+            }
+          }
+          
+
+</style>
+    
+    </head>
+
+
+    <body>
+        <h3 style="padding: 30px;"><a href="portfolio.html" style="text-decoration: none;color: white;font-weight:bold">BACK</a></h3>
+        <div class="card card-1" style="position: relative; left: 200px">
+            <div class="card__icon"><i class="fas fa-bolt"></i></div>
+            <p class="card__exit"><i class="fas fa-times"></i></p>
+            <h3 class="card__title" style="font-weight: bold;">Presented a paper titiled "Embracing Augmented Work: Collaborating with smart Machines in 2023" </h3>
+            <p class="card__apply">
+              <a class="card__link" href="DOC-20231011-WA0024..pdf" style="font-weight: bold;">VIEW CERTIFICATE<i class="fas fa-arrow-right"></i></a>
+            </p>
+          </div>
+
+
+          <div class="card card-2" style="position: relative; left: 800px; top:-230px">
+            <div class="card__icon"><i class="fas fa-bolt"></i></div>
+            <p class="card__exit"><i class="fas fa-times"></i></p>
+            <h3 class="card__title" style="font-weight: bold;">Presented a paper titiled "Artificial Intelligence and Machine Learning" </h3>
+            <p class="card__apply">
+              <a class="card__link" href="AIML_paper.pdf" style="font-weight: bold;">VIEW CERTIFICATE<i class="fas fa-arrow-right"></i></a>
+            </p>
+          </div>
+
+
+          <div class="card card-3" style="position: relative; left: 500px; top:-190px">
+            <div class="card__icon"><i class="fas fa-bolt"></i></div>
+            <p class="card__exit"><i class="fas fa-times"></i></p>
+            <h3 class="card__title" style="font-weight: bold;"> Participated in “ARDINNOVATE”, Arduino based
+                event at IIT Palakkad</h3>
+            <p class="card__apply">
+              <a class="card__link" href="arduinovate.jpg" style="font-weight: bold;">VIEW CERTIFICATE<i class="fas fa-arrow-right"></i></a>
+            </p>
+          </div>
+    </body>
+</html>
