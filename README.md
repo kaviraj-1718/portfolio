@@ -2,15 +2,15 @@
 
   A portfolio website built to showcase my skills and achievements.
 
-  - [HowToRun](#homepage)
-  - [Screenshots](#images)
+  - [HowToRun](#HowToRun)
+  - [Screenshots](#Images)
 
 
-  ## homepage
+  ## HowToRun
 
   Run this file to open the website.
 
-  ## images
+  ## Images
 
  <img alt="Screenshot1" src="Screenshot 2024-06-06 143014.png">
 
