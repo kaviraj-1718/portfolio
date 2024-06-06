@@ -12,7 +12,7 @@
 
   ## Screenshots
 
-  <img alt="Screenshot1" src="portfolio/Screenshot 2024-06-06 142944.png">
+  <img alt="Screenshot1" src="Screenshot 2024-06-06 142944.png">
   
 
 
