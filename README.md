@@ -12,7 +12,7 @@
 
   ## Screenshots
 
-  ![Screenshot1](Screenshot 2024-06-06 143014.png)
+  <img alt="Screenshot1" src="portfolio/Screenshot 2024-06-06 142944.png">
   
 
 
