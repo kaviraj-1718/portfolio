@@ -9,6 +9,7 @@
   ## HowToRun
 
   Run this file to open the website.
+ " portfolio.html "
 
   ## Images
 
