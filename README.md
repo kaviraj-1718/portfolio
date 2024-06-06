@@ -6,11 +6,11 @@
   - [Screenshots](#images)
 
 
-  ## HowToRun
+  ## homepage
 
   Run this file to open the website.
 
-  ## Screenshots
+  ## images
 
  <img alt="Screenshot1" src="Screenshot 2024-06-06 143014.png">
 
